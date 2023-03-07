@@ -1,6 +1,7 @@
 export function showSettings() {
   const settingsPopUp = document.querySelector(".settings-popup");
   settingsPopUp.classList.toggle("hidden");
+  this.classList.toggle("clicked");
 }
 
 export function setSettings(event) {

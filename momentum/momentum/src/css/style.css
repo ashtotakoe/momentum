@@ -311,8 +311,12 @@ body {
   gap: 5px;
 }
 .settings {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+.settings.clicked {
+  transform: rotate(60deg);
 }
 
 .settings-popup {
